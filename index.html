@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor Monetário</title>
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h1>Converter R$ → US$</h1>
+  </header>
+      <main>
+        <div id="center">
+          <form action="conversor.py">
+            <div>
+              <label for="valordolar">Cotação atual do Dolar:</label>
+              <input type="number" name="valord" id="valordolar" maxlength="10">
+              </div>
+              <div>
+              <label for="valorconv">Valor R$ que deseja converter:</label>
+              <input type="number" name="valorc" id="valorconv" maxlength="20">
+              </div>
+          </form>
+          <div>
+            <button onclick="converter()">Converter</button>
+          </div>
+          <div id="res">
+            <p>Converção...</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p class="credito">Desenvolvido por <a href="http://github.com/daviroda" target="_blank" rel="noopener noreferrer">DaviRoda</a></p>
+        <p>&copy; 2024</p>
+      </footer>
+      <script src="script/script.js"></script> <!--colocar .value; nas var para amarzenar os dados-->
+</body>
+</html>

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(197, 240, 255);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+main div#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+footer > .credito {
+    margin-top: 400px;
+    text-align: center;
+}
+
+footer > p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(77, 112, 177);
+}
+
+input {
+    margin-bottom: 20px;
+    width: 80px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
