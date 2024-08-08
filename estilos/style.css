@@ -11,6 +11,8 @@ body {
 }
 
 h1 {
+    background-color: rgba(190, 190, 248, 0.555);
+    border-radius: 5px;
     margin-bottom: 20px;
     text-align: center;
 }
