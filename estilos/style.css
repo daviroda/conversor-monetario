@@ -53,13 +53,13 @@ button {
     margin-bottom: 20px;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 560px) {
     main {
         width: 500px;
     }
 
-    footer > .credito {
-        margin-top: 500px;
+    footer {
+        margin-bottom: 20px;
     }
     
 }
