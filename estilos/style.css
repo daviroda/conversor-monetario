@@ -28,8 +28,8 @@ main div#center {
 }
 
 footer > .credito {
-    margin-top: 500px;
     text-align: center;
+    margin-top: 500px;
 }
 
 footer > p {
@@ -59,13 +59,9 @@ button {
     }
 
     footer {
-        margin-bottom: 20px;
+        margin-top: 670px;
     }
 
-    div#res{
-        margin-bottom: 20px;
-    }
-    
 
 }
 
