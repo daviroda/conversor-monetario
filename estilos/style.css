@@ -24,10 +24,11 @@ main div#center {
     background-color: aliceblue;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(117, 117, 117, 0.26);
 }
 
 footer > .credito {
-    margin-top: 400px;
+    margin-top: 500px;
     text-align: center;
 }
 
@@ -50,5 +51,16 @@ input {
 button {
     padding: 10px;
     margin-bottom: 20px;
+}
+
+@media screen and (orientation: portrait) {
+    main {
+        width: 500px;
+    }
+
+    footer > .credito {
+        margin-top: 500px;
+    }
+    
 }
 
